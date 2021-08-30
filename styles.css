@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rebeccapurple;
+    background: radial-gradient(
+        circle,
+        rgba(133, 251, 202, 0.633) 0%,
+    rgba(91, 224, 195, 0.841) 35%,
+    rgb(230, 136, 113) 100%
+    );
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+#location {
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.desc {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}
